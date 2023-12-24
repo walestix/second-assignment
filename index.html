@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Page</title>
+    <link href="/style.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="1sthalf">
+            <img class="logo" src="/Logo.png" alt="">
+            <p class="head">For Individuals</p>
+            <p class="sub">Start benefiting from the wellness experience. For <br>companies looking on increasing productivity, and improving <br>organization wellness.</p>
+        </div>
+        <div class="form">
+            <form action="#" method="get">
+                
+        
+                    <div class="firstname">
+                        <label for="first-name">First Name</label><br>
+                        <input type="text" class="name" name="first-name" id="firstName" required>
+                    </div>
+
+                    <div class="lastname">
+                        <label for="last-name">Last Name</label><br>
+                         <input type="text" class="name" name="last-name" id="lastName" required>
+                    </div>
+         
+                    <div class="gender">
+                        <label for="gender">Gender</label><br>
+                        <select name="gender" class="gender" id="gender" required>
+                            <option value="Select here">Select here</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="Prefer not to say">Prefer not to say</option>
+                        </select>
+                    </div>
+
+                    <div class="dob">
+                        <label for="dob">Date of Birth</label><br>
+                        <input type="date" name="dateofbirth" class="name" placeholder="none" id="dateOfBirth" required>
+                    </div>
+
+                    <div class="weight">
+                        <label for="weight">Weight(kg)</label><br>
+                        <input type="number" placeholder="Enter Weight" class="name" name="weight" id="weight" required>
+                    </div>
+
+                    <div class="height">
+                        <label for="height">Height(cm)</label><br>
+                        <input type="number" placeholder="Enter Height" class="name" name="height" id="height" required>
+                    </div>
+                 
+                    <div class="activity-level">
+                        <label for="activity-level">Activity Level</label><br>
+                        <select name="activity-level"  id="activityLevel" class="activity-level" required>
+                            <option value="select here">Select here</option>
+                            <option value="" disabled selected hidden>Select here</option>
+                            <option value="veryHigh">Very High</option>
+                            <option value="high">High</option>
+                            <option value="medium">Medium</option>
+                            <option value="low">Low</option>
+                            <option value="veryLow">Very Low</option>
+                        </select>
+                    </div>
+
+                    <div class="pwd">
+                        <label for="pwd">Password</label><br>
+                        <input type="password" class="pwd"  name="pwd" id="pwd" required><p class="eye">&#128065</p>
+                    </div>
+
+                    <input type="submit" class="submit" value="Register">
+                <p class="tc">By clicking Register, you agree to our <a href="#">Terms Of Use</a> and our <a href="#">Privacy Policy</a></p>
+            </form>
+        </div>
+    </main>
+</body>
+</html>
